@@ -1,0 +1,114 @@
+/* основний чорний колір  #212121 */
+/* лого чорний #000000 */
+/* синій акцент #2196F3*/
+/* текст абзаців #757575 */
+/* білий #FFFFFF */
+/* посилання футеру rgba(255, 255, 255, 0.6); */
+
+/* колір фону #E5E5E5 */
+/* вторичний колір фону #2F303A */
+
+:root{
+--primary-text-color: #757575;
+--accent-color:#2196F3;
+--white-color:#FFFFFF;
+--black-color:#000000;
+--background-color:#E5E5E5;
+--title-color:#212121;
+--footer-link-color:rgba(255, 255, 255, 0.6);
+--portfolio-button-color:#F5F4FA;
+}
+
+body{
+background-color: var(--background-color);
+color: var(--primary-text-color);
+}
+
+.list{
+list-style: none;
+}
+/* Logo */
+.logo-web{
+color: var(--accent-color);
+}
+
+.header .logo-studio{
+    color: var(--black-color);
+}
+
+.footer .logo-studio{
+    color: var(--white-color);
+}
+
+
+/*  Site nav */
+.site-nav .link{
+    color: var(--title-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+
+/* Contacts */
+.contact-nav .link{
+    color: var(--primary-text-color);
+}
+
+.contact-nav .link:hover,
+.contact-nav .link:focus{
+    color: var(--accent-color);
+}
+
+
+/* Hero */
+.hero-title{
+    color: var(--white-color);
+}
+
+.hero-button{
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+/* Sections */
+.section-title{
+color: var(--title-color);
+}
+
+/* Qualities */
+.qualities-title{
+    color: var(--title-color);
+}
+
+/* Team */
+.team-title{
+    color:var(--title-color);
+}
+
+/* Footer */
+.footer-address{
+color: var(--white-color);
+}
+
+.footer-link{
+    color: var(--footer-link-color);
+}
+
+/* Portfolio page */
+/* Work categories */
+.work-categories .button{
+    background-color: var(--portfolio-button-color);
+    color:var(--title-color);
+}
+
+.work-categories .button:hover,
+.work-categories .button:focus{
+background-color: var(--accent-color);
+color:var(--white-color);
+}
+
+.work-example .title{
+color: var(--title-color);
+}
